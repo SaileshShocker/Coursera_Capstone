@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_cac34a2caad64d26a49d756ac5015c3c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cac34a2caad64d26a49d756ac5015c3c" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_cac34a2caad64d26a49d756ac5015c3c = L.map(
+                                  'map_cac34a2caad64d26a49d756ac5015c3c',
+                                  {center: [12.972161199999999,77.5960137],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_9077a2294ca0472d9c98138e9ceff9e1 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+        
+    
+            var circle_marker_53bd1f278d9542599dd3caa39ed8cd60 = L.circleMarker(
+                [12.93328392,77.61542793],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_f213d39297654e24ba0fc948688c4a5b = L.popup({maxWidth: '300'});
+
+            
+                var html_2e745b93e17342ca93ebb793cbed88ba = $('<div id="html_2e745b93e17342ca93ebb793cbed88ba" style="width: 100.0%; height: 100.0%;">BluPetal Hotel, Koramangala Cluster 0</div>')[0];
+                popup_f213d39297654e24ba0fc948688c4a5b.setContent(html_2e745b93e17342ca93ebb793cbed88ba);
+            
+
+            circle_marker_53bd1f278d9542599dd3caa39ed8cd60.bindPopup(popup_f213d39297654e24ba0fc948688c4a5b);
+
+            
+        
+    
+            var circle_marker_5cc0047184e44808b0762db0fb16f5dd = L.circleMarker(
+                [12.976278193333334,77.64277512833333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_e11b8141c29349d9abf9fb369ccaebfb = L.popup({maxWidth: '300'});
+
+            
+                var html_ada6090bd5204fd398c4d8e1a57ed9ab = $('<div id="html_ada6090bd5204fd398c4d8e1a57ed9ab" style="width: 100.0%; height: 100.0%;">Indiranagar Cluster 3</div>')[0];
+                popup_e11b8141c29349d9abf9fb369ccaebfb.setContent(html_ada6090bd5204fd398c4d8e1a57ed9ab);
+            
+
+            circle_marker_5cc0047184e44808b0762db0fb16f5dd.bindPopup(popup_e11b8141c29349d9abf9fb369ccaebfb);
+
+            
+        
+    
+            var circle_marker_9dff26920d744f758a20aae97d663d7e = L.circleMarker(
+                [12.90622878,77.59679094],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_740c02768f7545bc97b1fdef7c104948 = L.popup({maxWidth: '300'});
+
+            
+                var html_85b500e34ea84823a80565b49558b6c4 = $('<div id="html_85b500e34ea84823a80565b49558b6c4" style="width: 100.0%; height: 100.0%;">JP Nagar Cluster 0</div>')[0];
+                popup_740c02768f7545bc97b1fdef7c104948.setContent(html_85b500e34ea84823a80565b49558b6c4);
+            
+
+            circle_marker_9dff26920d744f758a20aae97d663d7e.bindPopup(popup_740c02768f7545bc97b1fdef7c104948);
+
+            
+        
+    
+            var circle_marker_54e79d417923441aa4d89d2658dc5ede = L.circleMarker(
+                [12.93394706,77.61541494666666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_c8f03573214646b8819fd2c823a216e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_79e8de66afa14e2693e12525ec0432d3 = $('<div id="html_79e8de66afa14e2693e12525ec0432d3" style="width: 100.0%; height: 100.0%;">Koramangala 5th Block Cluster 0</div>')[0];
+                popup_c8f03573214646b8819fd2c823a216e6.setContent(html_79e8de66afa14e2693e12525ec0432d3);
+            
+
+            circle_marker_54e79d417923441aa4d89d2658dc5ede.bindPopup(popup_c8f03573214646b8819fd2c823a216e6);
+
+            
+        
+    
+            var circle_marker_434c57ced63445119b97ce4db2e028ff = L.circleMarker(
+                [12.939496,77.625999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_7f2ea44a6d1c47519fdd17f3a62889fc = L.popup({maxWidth: '300'});
+
+            
+                var html_c56919556b684248992a976545060f31 = $('<div id="html_c56919556b684248992a976545060f31" style="width: 100.0%; height: 100.0%;">Koramangala 6th Block Cluster 0</div>')[0];
+                popup_7f2ea44a6d1c47519fdd17f3a62889fc.setContent(html_c56919556b684248992a976545060f31);
+            
+
+            circle_marker_434c57ced63445119b97ce4db2e028ff.bindPopup(popup_7f2ea44a6d1c47519fdd17f3a62889fc);
+
+            
+        
+    
+            var circle_marker_687f28bbf3314d9aab3009d07e3c4ae6 = L.circleMarker(
+                [12.93566181,77.61413042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_80dae1c9c75b48538d56d2c14036410e = L.popup({maxWidth: '300'});
+
+            
+                var html_2d9cad299cce44a0870ccf34f95caa12 = $('<div id="html_2d9cad299cce44a0870ccf34f95caa12" style="width: 100.0%; height: 100.0%;">Koramangala 7th Block Cluster 0</div>')[0];
+                popup_80dae1c9c75b48538d56d2c14036410e.setContent(html_2d9cad299cce44a0870ccf34f95caa12);
+            
+
+            circle_marker_687f28bbf3314d9aab3009d07e3c4ae6.bindPopup(popup_80dae1c9c75b48538d56d2c14036410e);
+
+            
+        
+    
+            var circle_marker_0c2621f155b4492ba6cbee6615a76540 = L.circleMarker(
+                [12.962655434999999,77.69802505],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_fd02cb7c9bf14c1997fd8833d7c3e70e = L.popup({maxWidth: '300'});
+
+            
+                var html_1f294b82edb04242974aefda2692d4a4 = $('<div id="html_1f294b82edb04242974aefda2692d4a4" style="width: 100.0%; height: 100.0%;">Marathahalli Cluster 3</div>')[0];
+                popup_fd02cb7c9bf14c1997fd8833d7c3e70e.setContent(html_1f294b82edb04242974aefda2692d4a4);
+            
+
+            circle_marker_0c2621f155b4492ba6cbee6615a76540.bindPopup(popup_fd02cb7c9bf14c1997fd8833d7c3e70e);
+
+            
+        
+    
+            var circle_marker_861873ad0cbb4dd288ca0c6e4317b3a7 = L.circleMarker(
+                [13.0291977,77.57099670000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_01dbbf3326834280831a139b5dfd1e80 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bbcd091a3a74587bba93a4f76756493 = $('<div id="html_0bbcd091a3a74587bba93a4f76756493" style="width: 100.0%; height: 100.0%;">New BEL Road Cluster 2</div>')[0];
+                popup_01dbbf3326834280831a139b5dfd1e80.setContent(html_0bbcd091a3a74587bba93a4f76756493);
+            
+
+            circle_marker_861873ad0cbb4dd288ca0c6e4317b3a7.bindPopup(popup_01dbbf3326834280831a139b5dfd1e80);
+
+            
+        
+    
+            var circle_marker_17f5d11ccf83438d9767b486e6a06649 = L.circleMarker(
+                [12.97253153,77.60817859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_fb711a3c0e494714ae54144d34ba98a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fed9e07f42ad468fba6d6fde127ee4f4 = $('<div id="html_fed9e07f42ad468fba6d6fde127ee4f4" style="width: 100.0%; height: 100.0%;">Residency Road Cluster 4</div>')[0];
+                popup_fb711a3c0e494714ae54144d34ba98a2.setContent(html_fed9e07f42ad468fba6d6fde127ee4f4);
+            
+
+            circle_marker_17f5d11ccf83438d9767b486e6a06649.bindPopup(popup_fb711a3c0e494714ae54144d34ba98a2);
+
+            
+        
+    
+            var circle_marker_7d427d1b5745403d9249e97a3b47a83b = L.circleMarker(
+                [12.91365248,77.68081842999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_779d59d71fc2402bb03645db71961421 = L.popup({maxWidth: '300'});
+
+            
+                var html_277e9f25b18746cba79cf3cb8d32c0fa = $('<div id="html_277e9f25b18746cba79cf3cb8d32c0fa" style="width: 100.0%; height: 100.0%;">Sarjapur Road Cluster 1</div>')[0];
+                popup_779d59d71fc2402bb03645db71961421.setContent(html_277e9f25b18746cba79cf3cb8d32c0fa);
+            
+
+            circle_marker_7d427d1b5745403d9249e97a3b47a83b.bindPopup(popup_779d59d71fc2402bb03645db71961421);
+
+            
+        
+    
+            var circle_marker_33da1b74d94a4fa9978574efeea398a3 = L.circleMarker(
+                [12.972161199999999,77.5960137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cac34a2caad64d26a49d756ac5015c3c);
+            
+    
+            var popup_5380bd4408784fda8f01226e87e8bc3e = L.popup({maxWidth: '300'});
+
+            
+                var html_83507b56e80d4156b0d6d721d8136c04 = $('<div id="html_83507b56e80d4156b0d6d721d8136c04" style="width: 100.0%; height: 100.0%;">UB City Cluster 4</div>')[0];
+                popup_5380bd4408784fda8f01226e87e8bc3e.setContent(html_83507b56e80d4156b0d6d721d8136c04);
+            
+
+            circle_marker_33da1b74d94a4fa9978574efeea398a3.bindPopup(popup_5380bd4408784fda8f01226e87e8bc3e);
+
+            
+        
+</script>
